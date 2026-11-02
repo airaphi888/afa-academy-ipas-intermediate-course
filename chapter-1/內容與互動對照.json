@@ -1,0 +1,1465 @@
+{
+  "說明": "原文逐項保留；每一個所列名稱有情境選擇練習，原文每個表格列另有練習；索引分組名稱需人工核對各組項目。",
+  "sections": {
+    "1.1": {
+      "title": "先決定一筆資料到底代表什麼",
+      "source_named_index": [
+        "觀測單位（Observation Unit）",
+        "結構化／半結構化／非結構化資料",
+        "多模態（Multimodal）",
+        "CSV",
+        "JSON",
+        "XML",
+        "HTML",
+        "IoT",
+        "CRM",
+        "ERP",
+        "爬蟲（Web Crawler）",
+        "API",
+        "主鍵（Primary Key）",
+        "時間戳（Timestamp）",
+        "大數據5V"
+      ],
+      "scenario_names": [
+        "觀測單位（Observation Unit）",
+        "樣本（Sample）",
+        "特徵（Feature）",
+        "標籤（Label）",
+        "結構化資料（Structured Data）",
+        "半結構化資料（Semi-structured Data）",
+        "非結構化資料（Unstructured Data）",
+        "多模態（Multimodal）",
+        "CSV",
+        "JSON",
+        "XML",
+        "HTML",
+        "物聯網（IoT）",
+        "客戶關係管理（CRM）",
+        "企業資源規劃（ERP）",
+        "網頁爬蟲（Web Crawler）",
+        "應用程式介面（API）",
+        "主鍵（Primary Key）",
+        "欄位型別（Data Type）",
+        "表格連接（Join）",
+        "時間戳（Timestamp）",
+        "時區（Time Zone）",
+        "詞元（Token）",
+        "圖文配對（Image-text Pair）",
+        "資料量（Volume）",
+        "資料多樣性（Variety）",
+        "資料速度（Velocity）",
+        "資料可信度（Veracity）",
+        "資料價值（Value）"
+      ],
+      "source_tables": 1,
+      "source_table_rows": 4,
+      "索引逐項對照": [
+        {
+          "講義索引": "觀測單位（Observation Unit）",
+          "對應情境練習": [
+            "觀測單位（Observation Unit）"
+          ]
+        },
+        {
+          "講義索引": "結構化／半結構化／非結構化資料",
+          "對應情境練習": [
+            "結構化資料（Structured Data）",
+            "半結構化資料（Semi-structured Data）",
+            "非結構化資料（Unstructured Data）"
+          ]
+        },
+        {
+          "講義索引": "多模態（Multimodal）",
+          "對應情境練習": [
+            "多模態（Multimodal）"
+          ]
+        },
+        {
+          "講義索引": "CSV",
+          "對應情境練習": [
+            "CSV"
+          ]
+        },
+        {
+          "講義索引": "JSON",
+          "對應情境練習": [
+            "JSON"
+          ]
+        },
+        {
+          "講義索引": "XML",
+          "對應情境練習": [
+            "XML"
+          ]
+        },
+        {
+          "講義索引": "HTML",
+          "對應情境練習": [
+            "HTML"
+          ]
+        },
+        {
+          "講義索引": "IoT",
+          "對應情境練習": [
+            "物聯網（IoT）"
+          ]
+        },
+        {
+          "講義索引": "CRM",
+          "對應情境練習": [
+            "客戶關係管理（CRM）"
+          ]
+        },
+        {
+          "講義索引": "ERP",
+          "對應情境練習": [
+            "企業資源規劃（ERP）"
+          ]
+        },
+        {
+          "講義索引": "爬蟲（Web Crawler）",
+          "對應情境練習": [
+            "網頁爬蟲（Web Crawler）"
+          ]
+        },
+        {
+          "講義索引": "API",
+          "對應情境練習": [
+            "應用程式介面（API）"
+          ]
+        },
+        {
+          "講義索引": "主鍵（Primary Key）",
+          "對應情境練習": [
+            "主鍵（Primary Key）"
+          ]
+        },
+        {
+          "講義索引": "時間戳（Timestamp）",
+          "對應情境練習": [
+            "時間戳（Timestamp）"
+          ]
+        },
+        {
+          "講義索引": "大數據5V",
+          "對應情境練習": [
+            "資料量（Volume）",
+            "資料多樣性（Variety）",
+            "資料速度（Velocity）",
+            "資料可信度（Veracity）",
+            "資料價值（Value）"
+          ]
+        }
+      ]
+    },
+    "1.2": {
+      "title": "資料有填滿，不代表資料正確",
+      "source_named_index": [
+        "資料品質（Data Quality）",
+        "完整性（Completeness）",
+        "正確性（Accuracy）",
+        "一致性（Consistency）",
+        "唯一性（Uniqueness）",
+        "有效性（Validity）",
+        "時效性（Timeliness）",
+        "去重（Deduplication）",
+        "資料版本",
+        "資料血緣（Data Lineage）"
+      ],
+      "scenario_names": [
+        "資料品質（Data Quality）",
+        "完整性（Completeness）",
+        "正確性（Accuracy）",
+        "一致性（Consistency）",
+        "唯一性（Uniqueness）",
+        "有效性（Validity）",
+        "時效性（Timeliness）",
+        "欄位完整率（Field Completeness Rate）",
+        "缺失值（Missing Value）",
+        "重複值（Duplicate）",
+        "真實極端值（True Extreme Value）",
+        "標籤錯誤（Label Error）",
+        "去重（Deduplication）",
+        "隔離（Quarantine）",
+        "回補（Backfill）",
+        "資料版本（Data Version）",
+        "資料血緣（Data Lineage）"
+      ],
+      "source_tables": 1,
+      "source_table_rows": 6,
+      "索引逐項對照": [
+        {
+          "講義索引": "資料品質（Data Quality）",
+          "對應情境練習": [
+            "資料品質（Data Quality）"
+          ]
+        },
+        {
+          "講義索引": "完整性（Completeness）",
+          "對應情境練習": [
+            "完整性（Completeness）"
+          ]
+        },
+        {
+          "講義索引": "正確性（Accuracy）",
+          "對應情境練習": [
+            "正確性（Accuracy）"
+          ]
+        },
+        {
+          "講義索引": "一致性（Consistency）",
+          "對應情境練習": [
+            "一致性（Consistency）"
+          ]
+        },
+        {
+          "講義索引": "唯一性（Uniqueness）",
+          "對應情境練習": [
+            "唯一性（Uniqueness）"
+          ]
+        },
+        {
+          "講義索引": "有效性（Validity）",
+          "對應情境練習": [
+            "有效性（Validity）"
+          ]
+        },
+        {
+          "講義索引": "時效性（Timeliness）",
+          "對應情境練習": [
+            "時效性（Timeliness）"
+          ]
+        },
+        {
+          "講義索引": "去重（Deduplication）",
+          "對應情境練習": [
+            "去重（Deduplication）"
+          ]
+        },
+        {
+          "講義索引": "資料版本",
+          "對應情境練習": [
+            "資料版本（Data Version）"
+          ]
+        },
+        {
+          "講義索引": "資料血緣（Data Lineage）",
+          "對應情境練習": [
+            "資料血緣（Data Lineage）"
+          ]
+        }
+      ]
+    },
+    "1.3": {
+      "title": "給答案的人，也需要共同規則",
+      "source_named_index": [
+        "標註（Annotation）",
+        "標籤（Label）",
+        "關鍵點（Keypoint）",
+        "標註指南",
+        "雙重標註（Double Annotation）",
+        "Cohen’s kappa",
+        "群眾外包（Crowdsourcing）",
+        "弱監督（Weak Supervision）",
+        "主動學習（Active Learning）",
+        "合成資料（Synthetic Data）",
+        "資料增強（Data Augmentation）"
+      ],
+      "scenario_names": [
+        "標註（Annotation）",
+        "標籤（Label）",
+        "物件偵測（Object Detection）",
+        "影像分割（Image Segmentation）",
+        "像素（Pixel）",
+        "關鍵點（Keypoint）",
+        "標註指南（Annotation Guideline）",
+        "雙重標註（Double Annotation）",
+        "專家標註（Expert Annotation）",
+        "群眾外包（Crowdsourcing）",
+        "弱監督（Weak Supervision）",
+        "主動學習（Active Learning）",
+        "自動標註（Automatic Annotation）",
+        "標註者一致性（Inter-annotator Agreement）",
+        "Cohen’s kappa",
+        "合成資料（Synthetic Data）",
+        "資料增強（Data Augmentation）"
+      ],
+      "source_tables": 1,
+      "source_table_rows": 5,
+      "索引逐項對照": [
+        {
+          "講義索引": "標註（Annotation）",
+          "對應情境練習": [
+            "標註（Annotation）"
+          ]
+        },
+        {
+          "講義索引": "標籤（Label）",
+          "對應情境練習": [
+            "標籤（Label）"
+          ]
+        },
+        {
+          "講義索引": "關鍵點（Keypoint）",
+          "對應情境練習": [
+            "關鍵點（Keypoint）"
+          ]
+        },
+        {
+          "講義索引": "標註指南",
+          "對應情境練習": [
+            "標註指南（Annotation Guideline）"
+          ]
+        },
+        {
+          "講義索引": "雙重標註（Double Annotation）",
+          "對應情境練習": [
+            "雙重標註（Double Annotation）"
+          ]
+        },
+        {
+          "講義索引": "Cohen’s kappa",
+          "對應情境練習": [
+            "Cohen’s kappa"
+          ]
+        },
+        {
+          "講義索引": "群眾外包（Crowdsourcing）",
+          "對應情境練習": [
+            "群眾外包（Crowdsourcing）"
+          ]
+        },
+        {
+          "講義索引": "弱監督（Weak Supervision）",
+          "對應情境練習": [
+            "弱監督（Weak Supervision）"
+          ]
+        },
+        {
+          "講義索引": "主動學習（Active Learning）",
+          "對應情境練習": [
+            "主動學習（Active Learning）"
+          ]
+        },
+        {
+          "講義索引": "合成資料（Synthetic Data）",
+          "對應情境練習": [
+            "合成資料（Synthetic Data）"
+          ]
+        },
+        {
+          "講義索引": "資料增強（Data Augmentation）",
+          "對應情境練習": [
+            "資料增強（Data Augmentation）"
+          ]
+        }
+      ]
+    },
+    "1.4": {
+      "title": "幫不同資料找合適的家",
+      "source_named_index": [
+        "資料湖（Data Lake）",
+        "資料倉儲（Data Warehouse）",
+        "湖倉（Lakehouse）",
+        "Schema-on-write／read",
+        "事實表（Fact Table）",
+        "維度表（Dimension Table）",
+        "星型（Star Schema）",
+        "雪花（Snowflake Schema）",
+        "Kimball",
+        "Inmon",
+        "Data Vault",
+        "Delta Lake",
+        "Iceberg",
+        "Hudi",
+        "時間旅行（Time Travel）",
+        "關聯式、文件、鍵值、向量、圖資料庫",
+        "Redis",
+        "RDF",
+        "RDFS",
+        "OWL",
+        "SPARQL",
+        "HDFS",
+        "NameNode",
+        "DataNode",
+        "非關聯式資料儲存（NoSQL）",
+        "分片（Sharding）",
+        "複寫（Replication）",
+        "備份（Backup）",
+        "Raft",
+        "Paxos"
+      ],
+      "scenario_names": [
+        "資料湖（Data Lake）",
+        "資料倉儲（Data Warehouse）",
+        "湖倉（Lakehouse）",
+        "結構綱要（Schema）",
+        "寫入時定義結構（Schema-on-write）",
+        "讀取時定義結構（Schema-on-read）",
+        "事實表（Fact Table）",
+        "維度表（Dimension Table）",
+        "星型模型（Star Schema）",
+        "雪花模型（Snowflake Schema）",
+        "Kimball",
+        "Inmon",
+        "Data Vault",
+        "Delta Lake",
+        "Apache Iceberg",
+        "Apache Hudi",
+        "時間旅行（Time Travel）",
+        "關聯式資料庫（Relational Database）",
+        "文件型資料庫（Document Database）",
+        "鍵值儲存（Key-value Store）",
+        "Redis",
+        "向量資料庫（Vector Database）",
+        "圖資料庫（Graph Database）",
+        "物件儲存（Object Storage）",
+        "RDF 三元組",
+        "RDFS",
+        "OWL",
+        "SPARQL",
+        "HDFS",
+        "NameNode",
+        "DataNode",
+        "NoSQL",
+        "分片（Sharding）",
+        "複寫（Replication）",
+        "備份（Backup）",
+        "共識演算法（Consensus）",
+        "Raft",
+        "Paxos"
+      ],
+      "source_tables": 1,
+      "source_table_rows": 9,
+      "索引逐項對照": [
+        {
+          "講義索引": "資料湖（Data Lake）",
+          "對應情境練習": [
+            "資料湖（Data Lake）"
+          ]
+        },
+        {
+          "講義索引": "資料倉儲（Data Warehouse）",
+          "對應情境練習": [
+            "資料倉儲（Data Warehouse）"
+          ]
+        },
+        {
+          "講義索引": "湖倉（Lakehouse）",
+          "對應情境練習": [
+            "湖倉（Lakehouse）"
+          ]
+        },
+        {
+          "講義索引": "Schema-on-write／read",
+          "對應情境練習": [
+            "寫入時定義結構（Schema-on-write）",
+            "讀取時定義結構（Schema-on-read）"
+          ]
+        },
+        {
+          "講義索引": "事實表（Fact Table）",
+          "對應情境練習": [
+            "事實表（Fact Table）"
+          ]
+        },
+        {
+          "講義索引": "維度表（Dimension Table）",
+          "對應情境練習": [
+            "維度表（Dimension Table）"
+          ]
+        },
+        {
+          "講義索引": "星型（Star Schema）",
+          "對應情境練習": [
+            "星型模型（Star Schema）"
+          ]
+        },
+        {
+          "講義索引": "雪花（Snowflake Schema）",
+          "對應情境練習": [
+            "雪花模型（Snowflake Schema）"
+          ]
+        },
+        {
+          "講義索引": "Kimball",
+          "對應情境練習": [
+            "Kimball"
+          ]
+        },
+        {
+          "講義索引": "Inmon",
+          "對應情境練習": [
+            "Inmon"
+          ]
+        },
+        {
+          "講義索引": "Data Vault",
+          "對應情境練習": [
+            "Data Vault"
+          ]
+        },
+        {
+          "講義索引": "Delta Lake",
+          "對應情境練習": [
+            "Delta Lake"
+          ]
+        },
+        {
+          "講義索引": "Iceberg",
+          "對應情境練習": [
+            "Apache Iceberg"
+          ]
+        },
+        {
+          "講義索引": "Hudi",
+          "對應情境練習": [
+            "Apache Hudi"
+          ]
+        },
+        {
+          "講義索引": "時間旅行（Time Travel）",
+          "對應情境練習": [
+            "時間旅行（Time Travel）"
+          ]
+        },
+        {
+          "講義索引": "關聯式、文件、鍵值、向量、圖資料庫",
+          "對應情境練習": [
+            "關聯式資料庫（Relational Database）",
+            "文件型資料庫（Document Database）",
+            "鍵值儲存（Key-value Store）",
+            "向量資料庫（Vector Database）",
+            "圖資料庫（Graph Database）"
+          ]
+        },
+        {
+          "講義索引": "Redis",
+          "對應情境練習": [
+            "Redis"
+          ]
+        },
+        {
+          "講義索引": "RDF",
+          "對應情境練習": [
+            "RDF 三元組",
+            "RDFS"
+          ]
+        },
+        {
+          "講義索引": "RDFS",
+          "對應情境練習": [
+            "RDFS"
+          ]
+        },
+        {
+          "講義索引": "OWL",
+          "對應情境練習": [
+            "OWL"
+          ]
+        },
+        {
+          "講義索引": "SPARQL",
+          "對應情境練習": [
+            "SPARQL"
+          ]
+        },
+        {
+          "講義索引": "HDFS",
+          "對應情境練習": [
+            "HDFS"
+          ]
+        },
+        {
+          "講義索引": "NameNode",
+          "對應情境練習": [
+            "NameNode"
+          ]
+        },
+        {
+          "講義索引": "DataNode",
+          "對應情境練習": [
+            "DataNode"
+          ]
+        },
+        {
+          "講義索引": "非關聯式資料儲存（NoSQL）",
+          "對應情境練習": [
+            "NoSQL"
+          ]
+        },
+        {
+          "講義索引": "分片（Sharding）",
+          "對應情境練習": [
+            "分片（Sharding）"
+          ]
+        },
+        {
+          "講義索引": "複寫（Replication）",
+          "對應情境練習": [
+            "複寫（Replication）"
+          ]
+        },
+        {
+          "講義索引": "備份（Backup）",
+          "對應情境練習": [
+            "備份（Backup）"
+          ]
+        },
+        {
+          "講義索引": "Raft",
+          "對應情境練習": [
+            "Raft"
+          ]
+        },
+        {
+          "講義索引": "Paxos",
+          "對應情境練習": [
+            "Paxos"
+          ]
+        }
+      ]
+    },
+    "1.5": {
+      "title": "存得下，還要取得快、管得住",
+      "source_named_index": [
+        "交易（Transaction）",
+        "ACID",
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability",
+        "Two-Phase Commit（2PC）",
+        "CAP",
+        "BASE",
+        "OLTP",
+        "OLAP",
+        "索引（Index）",
+        "分區（Partition）",
+        "Parquet",
+        "ORC",
+        "Avro",
+        "Protobuf",
+        "元資料（Metadata）",
+        "資料目錄（Data Catalog）",
+        "資料管理員（Data Steward）",
+        "RBAC",
+        "ABAC",
+        "PBAC",
+        "DAC",
+        "零信任（Zero Trust）",
+        "最小權限",
+        "多因素驗證",
+        "稽核（Audit）"
+      ],
+      "scenario_names": [
+        "交易（Transaction）",
+        "ACID",
+        "原子性（Atomicity）",
+        "一致性（Consistency，ACID）",
+        "隔離性（Isolation）",
+        "持久性（Durability）",
+        "兩階段提交（Two-Phase Commit，2PC）",
+        "CAP 定理",
+        "CAP 一致性（Consistency）",
+        "CAP 可用性（Availability）",
+        "網路分割（Partition Tolerance）",
+        "BASE",
+        "最終一致性（Eventual Consistency）",
+        "OLTP",
+        "OLAP",
+        "索引（Index）",
+        "分區（Partition）",
+        "欄式儲存（Columnar Storage）",
+        "Parquet",
+        "ORC",
+        "Avro",
+        "Protobuf",
+        "快取（Cache）",
+        "物化檢視（Materialized View）",
+        "查詢最佳化（Query Optimization）",
+        "冷熱分層（Storage Tiering）",
+        "查詢隔離與配額（Workload Isolation）",
+        "分散式系統（Distributed System）",
+        "強一致性（Strong Consistency）",
+        "資料本地性（Data Locality）",
+        "壓縮（Compression）",
+        "資料治理委員會（Data Governance Committee）",
+        "元資料（Metadata）",
+        "資料目錄（Data Catalog）",
+        "資料管理員（Data Steward）",
+        "資料治理（Data Governance）",
+        "數位治理（Digital Governance）",
+        "角色型存取控制（RBAC）",
+        "屬性型存取控制（ABAC）",
+        "政策型存取控制（PBAC）",
+        "自主存取控制（DAC）",
+        "零信任（Zero Trust）",
+        "最小權限（Least Privilege）",
+        "多因素驗證（MFA）",
+        "稽核（Audit）"
+      ],
+      "source_tables": 3,
+      "source_table_rows": 21,
+      "索引逐項對照": [
+        {
+          "講義索引": "交易（Transaction）",
+          "對應情境練習": [
+            "交易（Transaction）"
+          ]
+        },
+        {
+          "講義索引": "ACID",
+          "對應情境練習": [
+            "ACID",
+            "一致性（Consistency，ACID）"
+          ]
+        },
+        {
+          "講義索引": "Atomicity",
+          "對應情境練習": [
+            "原子性（Atomicity）"
+          ]
+        },
+        {
+          "講義索引": "Consistency",
+          "對應情境練習": [
+            "一致性（Consistency，ACID）",
+            "CAP 一致性（Consistency）",
+            "最終一致性（Eventual Consistency）",
+            "強一致性（Strong Consistency）"
+          ]
+        },
+        {
+          "講義索引": "Isolation",
+          "對應情境練習": [
+            "隔離性（Isolation）",
+            "查詢隔離與配額（Workload Isolation）"
+          ]
+        },
+        {
+          "講義索引": "Durability",
+          "對應情境練習": [
+            "持久性（Durability）"
+          ]
+        },
+        {
+          "講義索引": "Two-Phase Commit（2PC）",
+          "對應情境練習": [
+            "兩階段提交（Two-Phase Commit，2PC）"
+          ]
+        },
+        {
+          "講義索引": "CAP",
+          "對應情境練習": [
+            "CAP 定理",
+            "CAP 一致性（Consistency）",
+            "CAP 可用性（Availability）"
+          ]
+        },
+        {
+          "講義索引": "BASE",
+          "對應情境練習": [
+            "BASE"
+          ]
+        },
+        {
+          "講義索引": "OLTP",
+          "對應情境練習": [
+            "OLTP"
+          ]
+        },
+        {
+          "講義索引": "OLAP",
+          "對應情境練習": [
+            "OLAP"
+          ]
+        },
+        {
+          "講義索引": "索引（Index）",
+          "對應情境練習": [
+            "索引（Index）"
+          ]
+        },
+        {
+          "講義索引": "分區（Partition）",
+          "對應情境練習": [
+            "分區（Partition）"
+          ]
+        },
+        {
+          "講義索引": "Parquet",
+          "對應情境練習": [
+            "Parquet"
+          ]
+        },
+        {
+          "講義索引": "ORC",
+          "對應情境練習": [
+            "ORC"
+          ]
+        },
+        {
+          "講義索引": "Avro",
+          "對應情境練習": [
+            "Avro"
+          ]
+        },
+        {
+          "講義索引": "Protobuf",
+          "對應情境練習": [
+            "Protobuf"
+          ]
+        },
+        {
+          "講義索引": "元資料（Metadata）",
+          "對應情境練習": [
+            "元資料（Metadata）"
+          ]
+        },
+        {
+          "講義索引": "資料目錄（Data Catalog）",
+          "對應情境練習": [
+            "資料目錄（Data Catalog）"
+          ]
+        },
+        {
+          "講義索引": "資料管理員（Data Steward）",
+          "對應情境練習": [
+            "資料管理員（Data Steward）"
+          ]
+        },
+        {
+          "講義索引": "RBAC",
+          "對應情境練習": [
+            "角色型存取控制（RBAC）"
+          ]
+        },
+        {
+          "講義索引": "ABAC",
+          "對應情境練習": [
+            "屬性型存取控制（ABAC）"
+          ]
+        },
+        {
+          "講義索引": "PBAC",
+          "對應情境練習": [
+            "政策型存取控制（PBAC）"
+          ]
+        },
+        {
+          "講義索引": "DAC",
+          "對應情境練習": [
+            "自主存取控制（DAC）"
+          ]
+        },
+        {
+          "講義索引": "零信任（Zero Trust）",
+          "對應情境練習": [
+            "零信任（Zero Trust）"
+          ]
+        },
+        {
+          "講義索引": "最小權限",
+          "對應情境練習": [
+            "最小權限（Least Privilege）"
+          ]
+        },
+        {
+          "講義索引": "多因素驗證",
+          "對應情境練習": [
+            "多因素驗證（MFA）"
+          ]
+        },
+        {
+          "講義索引": "稽核（Audit）",
+          "對應情境練習": [
+            "稽核（Audit）"
+          ]
+        }
+      ]
+    },
+    "1.6": {
+      "title": "保護資料，要先理解保護什麼",
+      "source_named_index": [
+        "個人資料（Personal Data）",
+        "準識別資訊（Quasi-identifier）",
+        "GDPR",
+        "CCPA",
+        "HIPAA",
+        "DPIA",
+        "PCI DSS",
+        "遮蔽（Masking）",
+        "泛化能力（Generalization）",
+        "雜湊（Hashing）",
+        "假名化（Pseudonymization）",
+        "匿名化（Anonymization）",
+        "k-anonymity",
+        "l-diversity",
+        "t-closeness",
+        "Differential Privacy（DP）",
+        "ε／δ",
+        "Privacy Budget",
+        "隨機回應（Randomized Response）",
+        "拉普拉斯機制（Laplace）",
+        "高斯機制（Gaussian）",
+        "DP-SGD",
+        "聯邦學習（Federated Learning）",
+        "Horizontal／Vertical／Transfer Federated Learning",
+        "安全聚合（Secure Aggregation）",
+        "同態加密（Homomorphic Encryption）",
+        "PHE／SHE／FHE",
+        "Secure Multi-Party Computation（MPC）"
+      ],
+      "scenario_names": [
+        "個人資料（Personal Data）",
+        "準識別資訊（Quasi-identifier）",
+        "敏感資料（Sensitive Data）",
+        "事前告知（Notice）",
+        "個人資料保護法（台灣）",
+        "GDPR",
+        "CCPA",
+        "HIPAA",
+        "合法依據（Lawful Basis）",
+        "同意（Consent）",
+        "契約需要（Contract）",
+        "法律義務（Legal Obligation）",
+        "重大利益（Vital Interests）",
+        "公共任務（Public Task）",
+        "合法利益（Legitimate Interests）",
+        "查閱權（Right of Access）",
+        "更正權（Right to Rectification）",
+        "資料可攜權（Data Portability）",
+        "被遺忘權（Right to Be Forgotten）",
+        "DPIA",
+        "PCI DSS",
+        "遮蔽（Masking）",
+        "泛化（Generalization，隱私）",
+        "分桶（Bucketing）",
+        "雜湊（Hashing）",
+        "假名化（Pseudonymization）",
+        "匿名化（Anonymization）",
+        "隨機擾動（Noise Injection）",
+        "k-匿名（k-anonymity）",
+        "l-多樣性（l-diversity）",
+        "t-接近性（t-closeness）",
+        "差分隱私（Differential Privacy，DP）",
+        "相鄰資料集（Adjacent Datasets）",
+        "ε（Epsilon）",
+        "δ（Delta）",
+        "隱私預算（Privacy Budget）",
+        "隨機回應（Randomized Response）",
+        "拉普拉斯機制（Laplace Mechanism）",
+        "高斯機制（Gaussian Mechanism）",
+        "指數機制（Exponential Mechanism）",
+        "中央式差分隱私（Central DP）",
+        "局部差分隱私（Local DP）",
+        "DP-SGD",
+        "聯邦學習（Federated Learning）",
+        "水平聯邦學習（Horizontal FL）",
+        "垂直聯邦學習（Vertical FL）",
+        "遷移聯邦學習（Federated Transfer Learning）",
+        "安全聚合（Secure Aggregation）",
+        "同態加密（Homomorphic Encryption）",
+        "部分同態加密（PHE）",
+        "有限同態加密（SHE）",
+        "全同態加密（FHE）",
+        "安全多方計算（MPC）",
+        "加密（Encryption）",
+        "目的限制（Purpose Limitation）",
+        "資料最小化（Data Minimization）",
+        "保存期限（Retention Period）"
+      ],
+      "source_tables": 1,
+      "source_table_rows": 7,
+      "索引逐項對照": [
+        {
+          "講義索引": "個人資料（Personal Data）",
+          "對應情境練習": [
+            "個人資料（Personal Data）"
+          ]
+        },
+        {
+          "講義索引": "準識別資訊（Quasi-identifier）",
+          "對應情境練習": [
+            "準識別資訊（Quasi-identifier）"
+          ]
+        },
+        {
+          "講義索引": "GDPR",
+          "對應情境練習": [
+            "GDPR"
+          ]
+        },
+        {
+          "講義索引": "CCPA",
+          "對應情境練習": [
+            "CCPA"
+          ]
+        },
+        {
+          "講義索引": "HIPAA",
+          "對應情境練習": [
+            "HIPAA"
+          ]
+        },
+        {
+          "講義索引": "DPIA",
+          "對應情境練習": [
+            "DPIA"
+          ]
+        },
+        {
+          "講義索引": "PCI DSS",
+          "對應情境練習": [
+            "PCI DSS"
+          ]
+        },
+        {
+          "講義索引": "遮蔽（Masking）",
+          "對應情境練習": [
+            "遮蔽（Masking）"
+          ]
+        },
+        {
+          "講義索引": "泛化能力（Generalization）",
+          "對應情境練習": [
+            "泛化（Generalization，隱私）"
+          ]
+        },
+        {
+          "講義索引": "雜湊（Hashing）",
+          "對應情境練習": [
+            "雜湊（Hashing）"
+          ]
+        },
+        {
+          "講義索引": "假名化（Pseudonymization）",
+          "對應情境練習": [
+            "假名化（Pseudonymization）"
+          ]
+        },
+        {
+          "講義索引": "匿名化（Anonymization）",
+          "對應情境練習": [
+            "匿名化（Anonymization）"
+          ]
+        },
+        {
+          "講義索引": "k-anonymity",
+          "對應情境練習": [
+            "k-匿名（k-anonymity）"
+          ]
+        },
+        {
+          "講義索引": "l-diversity",
+          "對應情境練習": [
+            "l-多樣性（l-diversity）"
+          ]
+        },
+        {
+          "講義索引": "t-closeness",
+          "對應情境練習": [
+            "t-接近性（t-closeness）"
+          ]
+        },
+        {
+          "講義索引": "Differential Privacy（DP）",
+          "對應情境練習": [
+            "差分隱私（Differential Privacy，DP）"
+          ]
+        },
+        {
+          "講義索引": "ε／δ",
+          "對應情境練習": [
+            "ε（Epsilon）",
+            "δ（Delta）"
+          ]
+        },
+        {
+          "講義索引": "Privacy Budget",
+          "對應情境練習": [
+            "隱私預算（Privacy Budget）"
+          ]
+        },
+        {
+          "講義索引": "隨機回應（Randomized Response）",
+          "對應情境練習": [
+            "隨機回應（Randomized Response）"
+          ]
+        },
+        {
+          "講義索引": "拉普拉斯機制（Laplace）",
+          "對應情境練習": [
+            "拉普拉斯機制（Laplace Mechanism）"
+          ]
+        },
+        {
+          "講義索引": "高斯機制（Gaussian）",
+          "對應情境練習": [
+            "高斯機制（Gaussian Mechanism）"
+          ]
+        },
+        {
+          "講義索引": "DP-SGD",
+          "對應情境練習": [
+            "DP-SGD"
+          ]
+        },
+        {
+          "講義索引": "聯邦學習（Federated Learning）",
+          "對應情境練習": [
+            "聯邦學習（Federated Learning）"
+          ]
+        },
+        {
+          "講義索引": "Horizontal／Vertical／Transfer Federated Learning",
+          "對應情境練習": [
+            "水平聯邦學習（Horizontal FL）",
+            "垂直聯邦學習（Vertical FL）",
+            "遷移聯邦學習（Federated Transfer Learning）"
+          ]
+        },
+        {
+          "講義索引": "安全聚合（Secure Aggregation）",
+          "對應情境練習": [
+            "安全聚合（Secure Aggregation）"
+          ]
+        },
+        {
+          "講義索引": "同態加密（Homomorphic Encryption）",
+          "對應情境練習": [
+            "同態加密（Homomorphic Encryption）"
+          ]
+        },
+        {
+          "講義索引": "PHE／SHE／FHE",
+          "對應情境練習": [
+            "部分同態加密（PHE）",
+            "有限同態加密（SHE）",
+            "全同態加密（FHE）"
+          ]
+        },
+        {
+          "講義索引": "Secure Multi-Party Computation（MPC）",
+          "對應情境練習": [
+            "安全多方計算（MPC）"
+          ]
+        }
+      ]
+    },
+    "1.7": {
+      "title": "讓資料沿著可檢查的路線前進",
+      "source_named_index": [
+        "資料管線（Pipeline）",
+        "ETL",
+        "ELT",
+        "批次（Batch）",
+        "串流處理（Streaming）",
+        "CDC",
+        "binlog",
+        "WAL",
+        "Lambda／Kappa Architecture",
+        "Kafka",
+        "Hadoop MapReduce",
+        "Spark",
+        "Flink",
+        "Beam",
+        "Airflow",
+        "Prefect",
+        "Kubeflow",
+        "狀態（State）",
+        "時間視窗（Window）",
+        "事件時間（Event Time）",
+        "處理時間（Processing Time）",
+        "水位線（Watermark）",
+        "檢查點（Checkpoint）",
+        "重試（Retry）",
+        "冪等（Idempotence）",
+        "可觀測性（Observability）"
+      ],
+      "scenario_names": [
+        "資料管線（Data Pipeline）",
+        "ETL",
+        "ELT",
+        "批次處理（Batch）",
+        "串流處理（Streaming）",
+        "變更資料擷取（CDC）",
+        "二進位日誌（binlog）",
+        "預寫日誌（WAL）",
+        "Lambda 架構",
+        "Kappa 架構",
+        "Kafka",
+        "Hadoop MapReduce",
+        "Spark",
+        "Flink",
+        "Apache Beam",
+        "Runner",
+        "Airflow",
+        "Prefect",
+        "Kubeflow Pipelines",
+        "狀態（State）",
+        "時間視窗（Window）",
+        "事件時間（Event Time）",
+        "處理時間（Processing Time）",
+        "遲到事件（Late Event）",
+        "水位線（Watermark）",
+        "容錯（Fault Tolerance）",
+        "檢查點（Checkpoint）",
+        "重試（Retry）",
+        "冪等（Idempotence）",
+        "可觀測性（Observability）"
+      ],
+      "source_tables": 2,
+      "source_table_rows": 9,
+      "索引逐項對照": [
+        {
+          "講義索引": "資料管線（Pipeline）",
+          "對應情境練習": [
+            "資料管線（Data Pipeline）"
+          ]
+        },
+        {
+          "講義索引": "ETL",
+          "對應情境練習": [
+            "ETL"
+          ]
+        },
+        {
+          "講義索引": "ELT",
+          "對應情境練習": [
+            "ELT"
+          ]
+        },
+        {
+          "講義索引": "批次（Batch）",
+          "對應情境練習": [
+            "批次處理（Batch）"
+          ]
+        },
+        {
+          "講義索引": "串流處理（Streaming）",
+          "對應情境練習": [
+            "串流處理（Streaming）"
+          ]
+        },
+        {
+          "講義索引": "CDC",
+          "對應情境練習": [
+            "變更資料擷取（CDC）"
+          ]
+        },
+        {
+          "講義索引": "binlog",
+          "對應情境練習": [
+            "二進位日誌（binlog）"
+          ]
+        },
+        {
+          "講義索引": "WAL",
+          "對應情境練習": [
+            "預寫日誌（WAL）"
+          ]
+        },
+        {
+          "講義索引": "Lambda／Kappa Architecture",
+          "對應情境練習": [
+            "Lambda 架構",
+            "Kappa 架構"
+          ]
+        },
+        {
+          "講義索引": "Kafka",
+          "對應情境練習": [
+            "Kafka"
+          ]
+        },
+        {
+          "講義索引": "Hadoop MapReduce",
+          "對應情境練習": [
+            "Hadoop MapReduce"
+          ]
+        },
+        {
+          "講義索引": "Spark",
+          "對應情境練習": [
+            "Spark"
+          ]
+        },
+        {
+          "講義索引": "Flink",
+          "對應情境練習": [
+            "Flink"
+          ]
+        },
+        {
+          "講義索引": "Beam",
+          "對應情境練習": [
+            "Apache Beam"
+          ]
+        },
+        {
+          "講義索引": "Airflow",
+          "對應情境練習": [
+            "Airflow"
+          ]
+        },
+        {
+          "講義索引": "Prefect",
+          "對應情境練習": [
+            "Prefect"
+          ]
+        },
+        {
+          "講義索引": "Kubeflow",
+          "對應情境練習": [
+            "Kubeflow Pipelines"
+          ]
+        },
+        {
+          "講義索引": "狀態（State）",
+          "對應情境練習": [
+            "狀態（State）"
+          ]
+        },
+        {
+          "講義索引": "時間視窗（Window）",
+          "對應情境練習": [
+            "時間視窗（Window）"
+          ]
+        },
+        {
+          "講義索引": "事件時間（Event Time）",
+          "對應情境練習": [
+            "事件時間（Event Time）"
+          ]
+        },
+        {
+          "講義索引": "處理時間（Processing Time）",
+          "對應情境練習": [
+            "處理時間（Processing Time）"
+          ]
+        },
+        {
+          "講義索引": "水位線（Watermark）",
+          "對應情境練習": [
+            "水位線（Watermark）"
+          ]
+        },
+        {
+          "講義索引": "檢查點（Checkpoint）",
+          "對應情境練習": [
+            "檢查點（Checkpoint）"
+          ]
+        },
+        {
+          "講義索引": "重試（Retry）",
+          "對應情境練習": [
+            "重試（Retry）"
+          ]
+        },
+        {
+          "講義索引": "冪等（Idempotence）",
+          "對應情境練習": [
+            "冪等（Idempotence）"
+          ]
+        },
+        {
+          "講義索引": "可觀測性（Observability）",
+          "對應情境練習": [
+            "可觀測性（Observability）"
+          ]
+        }
+      ]
+    }
+  },
+  "banks": [
+    {
+      "id": "1.1-concept",
+      "kind": "concept",
+      "count": 29
+    },
+    {
+      "id": "1.1-table-1",
+      "kind": "table",
+      "count": 4
+    },
+    {
+      "id": "1.2-concept",
+      "kind": "concept",
+      "count": 17
+    },
+    {
+      "id": "1.2-table-2",
+      "kind": "table",
+      "count": 6
+    },
+    {
+      "id": "1.3-concept",
+      "kind": "concept",
+      "count": 17
+    },
+    {
+      "id": "1.3-table-3",
+      "kind": "table",
+      "count": 5
+    },
+    {
+      "id": "1.4-concept",
+      "kind": "concept",
+      "count": 38
+    },
+    {
+      "id": "1.4-table-4",
+      "kind": "table",
+      "count": 9
+    },
+    {
+      "id": "1.5-concept",
+      "kind": "concept",
+      "count": 45
+    },
+    {
+      "id": "1.5-table-5",
+      "kind": "table",
+      "count": 4
+    },
+    {
+      "id": "1.5-table-6",
+      "kind": "table",
+      "count": 9
+    },
+    {
+      "id": "1.5-table-7",
+      "kind": "table",
+      "count": 8
+    },
+    {
+      "id": "1.6-concept",
+      "kind": "concept",
+      "count": 57
+    },
+    {
+      "id": "1.6-table-8",
+      "kind": "table",
+      "count": 7
+    },
+    {
+      "id": "1.7-concept",
+      "kind": "concept",
+      "count": 30
+    },
+    {
+      "id": "1.7-table-9",
+      "kind": "table",
+      "count": 2
+    },
+    {
+      "id": "1.7-table-10",
+      "kind": "table",
+      "count": 7
+    }
+  ],
+  "名稱差異說明": "1.6 原索引「泛化能力（Generalization）」對照正文，是隱私保護中將精確資料改成較粗範圍的「泛化」，與模型泛化能力不同。",
+  "來源索引筆數": 148
+}
